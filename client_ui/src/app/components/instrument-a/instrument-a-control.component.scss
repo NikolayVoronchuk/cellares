@@ -1,0 +1,59 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.mat-card {
+  border: 1px solid grey;
+  margin: 20px;
+}
+
+.msg-form {
+  max-width: 500px;
+  min-width: 150px;
+  width: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.mat-form-field {
+  width: 55% !important;
+  font-size: 17px;
+}
+
+.mat-toolbar-single-row {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 16px;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.mat-card>.mat-card-actions:last-child {
+  margin-bottom: -8px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 10%;
+  display: inline-flex;
+  padding-left: 20px;
+}
+
+.form {
+  font-size: 40px;
+}

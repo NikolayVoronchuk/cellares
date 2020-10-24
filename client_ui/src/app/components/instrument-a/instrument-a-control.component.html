@@ -1,0 +1,33 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Instrument A</mat-card-title>
+  </mat-card-header>
+  <mat-card-header></mat-card-header>
+  <mat-card-actions>
+    <button mat-raised-button
+            color="primary"
+            id="connect"
+            (click)="onConnectClick()">CONNECT
+    </button>
+    <button mat-raised-button
+            color="primary"
+            id="start"
+            (click)="onStartClick(seconds.value)">START PROCEDURE
+    </button>
+    <form class="example-form">
+      <mat-form-field class="example-full-width">
+        <mat-label>Enter timeout</mat-label>
+        <input #seconds matInput placeholder="10" [value]="secondsToRun">
+      </mat-form-field>
+    </form>
+    <button mat-raised-button
+            color="primary"
+            id="stop"
+            (click)="onStopClick()">STOP PROCEDURE
+    </button>
+    <h2>{{connectionStatus}}</h2>
+    <h2>{{procedureStatus}}</h2>
+    <h2>{{timeLeft}}</h2>
+    <h2>{{generatedData}}</h2>
+  </mat-card-actions>
+</mat-card>
