@@ -2,6 +2,8 @@
 
 ## Requirements
 For successful launch of the app install pm2 package globally with this line: `npm install -g pm2`
+* NodeJS should be installed on the system
+* Angular should be installed on the system
 ##
 Task was accomplished with help of Angular, Express, NodeJS
 ##
