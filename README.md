@@ -23,6 +23,7 @@ In case pm2 and launch.sh script would fail for any reason. All apps can be laun
 * For client app: navigate to client_ui folder and run command `npm install` and then `ng serve`
 * For platform API: navigate to platform_api folder and run commands `npm install` and `npm run dev`
 * For simulator API: navigate to simulator folder and run commands `npm install` and `npm run dev`
+* Navigate to http://localhost:4200 to open UI application
 * To stop app from running just close terminal windows or kill processes. 
 ##
 
