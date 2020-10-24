@@ -32,7 +32,8 @@ sources. Also API could be refactored and improved to make it easier to add new 
 Configuration services needed to be added to successfully set apps to run for different modes. Unfortunately need a bit 
 more time to write good solution for it. Right now I have couple hardcoded values (for API addresses). Also i would add 
 tests for each component (UI/API/SIM). Started to add them but figured i would not be able to finish and focused more 
-on stable functionality. But strongly believe that testing should be added.
+on stable functionality. But strongly believe that testing should be added. Also i didn't provided documentation for API functions.
+With a bit more time Swagger documentation could be added with examples.
 
 ##
 If i missed something please let me know. I will be glad to provide explanations or fixes.
